@@ -11,7 +11,32 @@
   position: relative;
   height: 500px;
   width: 500px;
+
+  
 }
+
+@media screen and (max-width: 768px){
+  .slider-wrapper {
+    width: 350px;
+  }
+  .slider {
+    margin-left: 120px;
+    width: 350px
+  }
+
+}
+@media screen and (max-width: 425px){
+  .slider-wrapper {
+    width: 200px;
+  }
+  .slider {
+    margin-left: 52px;
+    width: 200px
+  }
+
+}
+
+
 
 .slide {
   display: inline-block;
@@ -81,8 +106,6 @@ font-size: 30px;
 
 .tooltip {
 position: absolute;
-/* display: inline-block; */
-/* border-bottom: 1px dotted black; */
 width: 30px;
 height: 30px;
 z-index: 1000;
@@ -96,8 +119,6 @@ color: #fff;
 text-align: center;
 border-radius: 6px;
 padding: 5px 0;
-
-/* Position the tooltip */
 position: absolute;
 z-index: 1000;
 
